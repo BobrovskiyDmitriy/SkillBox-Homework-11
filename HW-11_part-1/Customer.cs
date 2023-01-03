@@ -4,7 +4,7 @@ using System.Text;
 
 namespace HW_11_part_1
 {
-    public class Customer
+    public class Customer : IPerson
     {
 
         /// <summary>
@@ -40,11 +40,11 @@ namespace HW_11_part_1
             string phone_numb,
             string passport)
         {
-            this.Last_name = last_name;
-            this.First_name = first_name;
-            this.Middle_name = middle_name;
-            this.Phone_numb = phone_numb;
-            this.Passport = passport;
+            Last_name = last_name;
+            First_name = first_name;
+            Middle_name = middle_name;
+            Phone_numb = phone_numb;
+            Passport = passport;
         }
 
     }
