@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Customer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Last_name>Васильев</Last_name>
+  <First_name>Васька</First_name>
+  <Middle_name>Васькович</Middle_name>
+  <Phone_numb>123</Phone_numb>
+  <Passport>456-789</Passport>
+</Customer>
